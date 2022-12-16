@@ -213,10 +213,31 @@ del {
   font-size: 16px;
 }
 
+.deck {
+  margin-top: 60px 0px;
+}
+
+.deck1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  flex-direction: column;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 .partner-logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 60%;
 }
 
 .partner-logos li {
