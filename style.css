@@ -244,12 +244,32 @@ del {
   list-style-type: none;
 }
 
+.dam {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.flex h1 {
+  width: 400px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
 .flex li {
   font-size: 20px;
+  width: 340px;
+  font-weight: 400px;
+  line-height: 30px;
 }
 
 .flex p {
   font-size: 20px;
+}
+
+.dam p {
+  width: 400px;
 }
 
 .footer {
